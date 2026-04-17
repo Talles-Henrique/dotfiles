@@ -1,0 +1,21 @@
+[terminal.shell]
+program = "/usr/bin/tmux"
+args = ["new-session", "-A", "-s", "main"]
+
+[window]
+decorations = "None"
+opacity = 0.88
+padding = { x = 12, y = 12 }
+
+[font]
+normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
+bold = { family = "JetBrainsMono Nerd Font", style = "Bold" }
+italic = { family = "JetBrainsMono Nerd Font", style = "Italic" }
+
+size = 11.5
+
+# força melhor renderização de ícones
+offset = { x = 0, y = 1 }
+
+[env]
+TERM = "xterm-256color"
