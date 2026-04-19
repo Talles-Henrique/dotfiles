@@ -268,6 +268,8 @@ smart_gaps on
 smart_borders on
 
 
+# PICOM (transparência)
 exec_always --no-startup-id picom -b
 
+# FEH wallpaper
 exec_always --no-startup-id ~/.fehbg
