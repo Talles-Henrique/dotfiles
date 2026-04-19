@@ -51,5 +51,4 @@ require("lazy").setup({
     },
   },
 })
-require("config.hacker-ui")
-require("config.crt-cursor")
+require("config.hacker")
